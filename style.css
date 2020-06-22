@@ -38,10 +38,12 @@
   .jumbotron p{
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
+    size: 15px;
     color: white;
+    letter-spacing: 2px;
   }
   .jumbotron hr{
-    border-color: tomato;
+    border-color: rgb(197, 13, 68);
     width: 70px;
     border-width: 3px;
   }
