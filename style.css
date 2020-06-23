@@ -30,16 +30,16 @@
     position: absolute;
     bottom: 0;
 }
-  .jumbotron .display-4{
+  .jumbotron h1{
     color: white;
     text-align: center;
-    margin-top: 130px;
-    size: 30px;
+    margin-top: 130px; 
+    font-size: 50px;
   }
   .jumbotron p{
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
-    size: 15px;
+font-size: 15px;
     color: white;
     letter-spacing: 2px;
   }
@@ -114,7 +114,7 @@
 /* Info Panel */
 .infopanel { 
     text-align: center;
-    margin-top: 75px;
+    margin-top: 30px;
 
 }
 .infopanel .row h3{ 
@@ -126,14 +126,14 @@
 }
 .infopanel p { 
     font-family: 'Raleway', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     color: black;
     margin: 10px 0px;
 }
 .infopanel h4{
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    font-size: 17px;
+    font-size: 14px;
     font-weight: bold;
     margin-top: 10px;
 }
@@ -438,21 +438,29 @@ footer{
     .jumbotron .display-4{
     color: white;
     margin-top: 350px;
-	    size: 50px;
+    font-size: 60px;
     }
                 
             
     .infopanel { 
         text-align: left;
+        margin-top: 75px;
         }
     .infopanel .web{
         margin-top: 10px;
         text-align: center;
     }
+    .infopanel p{ 
+    font-size: 16px;
+    }
+    .infopanel h4{ 
+        font-size: 17px;
+    }
             
     .quote { 
         text-align: center;
         margin-top: 80px;
+        
      }
             
             
