@@ -495,7 +495,14 @@ footer{
         margin-top: 10px;
         width: 30%;
     }
-    
+    .footer-distributed .footer-right p{
+        font-size: 17px;
+    }
+    .footer-distributed .footer-right p{
+        font-size: 17px;
+    }
+
+
     .web .read{
         margin-top: 20px;
         margin: left;
