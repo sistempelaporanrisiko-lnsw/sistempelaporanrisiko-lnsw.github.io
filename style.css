@@ -30,16 +30,19 @@
     position: absolute;
     bottom: 0;
 }
-  .jumbotron h1{
+  .jumbotron .display-4{
     color: white;
     text-align: center;
     margin-top: 130px; 
-    font-size: 50px;
+    font-size: 45px;
+  }
+  .jumbotron .lead{
+      font-size: 14px;
   }
   .jumbotron p{
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
-font-size: 15px;
+font-size: 12px;
     color: white;
     letter-spacing: 2px;
   }
@@ -47,6 +50,7 @@ font-size: 15px;
     border-color: rgb(197, 13, 68);
     width: 70px;
     border-width: 3px;
+
   }
   .jumbotron .btn{
     border: none;
@@ -70,7 +74,7 @@ font-size: 15px;
     background-size: auto;
     background-origin: padding-box;
     background-clip: border-box;
-    padding: 17px 60px;
+    padding: 13px 50px;
     margin-top: 40px;
     margin: 40px auto;
     box-shadow: 0 5px 15px rgba(0,0,0,0.20);
@@ -87,8 +91,8 @@ font-size: 15px;
     position: absolute;
     left: 0;
     top: 0;
-    height: 490%;
-    width: 140%;
+    height: 320%;
+    width: 240%;
     color: white;
     background: linear-gradient(45deg, #e95f09 0%, #b90541 44%, #b90541 56%, #e95f09 100%);
     background-color: rgba(0, 0, 0, 0);
@@ -128,14 +132,14 @@ font-size: 15px;
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     color: black;
-    margin: 10px 0px;
+    margin: 10px 0px 5px 5px;
 }
 .infopanel h4{
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 /* Quote */
@@ -250,13 +254,14 @@ footer{
 	color: #ffffff;
     vertical-align: middle;
     text-align: left;
-	margin:0;
+    margin:0;
+    font-size: 13px;
 }
 
 .footer-distributed .footer-right p span{
 	display:block;
 	font-weight: normal;
-	font-size:14px;
+	font-size:13px;
 	line-height:2;
 }
 
@@ -310,7 +315,7 @@ footer{
     position: relative;
     color: #fff;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 25px;
     background-color: linear-gradient(45deg, #e95f09 0%, #b90541 44%, #b90541 56%, #e95f09 100%);
     background-color: rgba(0, 0, 0, 0);
     background-position-x: 0%;
@@ -336,7 +341,7 @@ footer{
     position: absolute;
     left: 0;
     top: 0;
-    height: 490%;
+    height: 290%;
     width: 140%;
     color: white;
     background: linear-gradient(45deg, #e95f09 0%, #b90541 44%, #b90541 56%, #e95f09 100%);
@@ -361,6 +366,7 @@ footer{
   }
 
   .web .read{
+      font-family: montserrat;
     border: none;
     display: block;
     margin: auto;
@@ -437,8 +443,15 @@ footer{
     }
     .jumbotron .display-4{
     color: white;
-    margin-top: 350px;
+    margin-top: 320px;
     font-size: 60px;
+    }
+    .jumbotron .lead{
+        font-size: 20px;
+    }
+    .jumbotron p{
+        font-size: 15px;
+
     }
                 
             
@@ -455,6 +468,7 @@ footer{
     }
     .infopanel h4{ 
         font-size: 17px;
+        margin-top: 10px;
     }
             
     .quote { 
