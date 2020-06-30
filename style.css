@@ -165,12 +165,14 @@ font-size: 12px;
     font-weight: bold;
     font-style: normal;
     color: black;
+    width: 300px;
 }
 .quote figcaption span {
     color: black;
     font-size: 11px;
     font-style: normal;
     margin-top: 10px;
+    width: 300px;
 }
 .quote hr{
     border-color: tomato;
